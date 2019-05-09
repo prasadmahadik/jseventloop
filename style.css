@@ -1,0 +1,10 @@
+@keyframes example {
+  from {color:yellow;}
+  to {color: green;}
+}
+
+.colorChange{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1000;
+}
